@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy Concepts - Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/icons/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Lucy Concepts</h1>
+        <nav>           
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" target="_blank">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="profile-icon"><i class="fas fa-user"></i> Login/Register</li>             
+            </ul>        
+        </nav>
+        <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart" ><span class="cart-count">0</span></i></a>
+        <div class="menu-icon"><i class="fas fa-bars"></i></div>
+    </header>
+    <div class="profile-dropdown dropdown">
+        <div id="profile">
+            <p>Sign in</p>
+            <p id="close-btn"><i class="fas fa-close"></i> Close</p>
+        </div>
+
+        <form id="login-form">
+            <label for="email">Username or email address</label>
+            <input type="email" id="dropdown-email" placeholder="Email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" class="login-btn">Login</button>
+            <a href="#">Forgot your password?</a>
+            <p>Don't have an account? <a href="#" target="_blank">Create an account</a></p>
+        </form>
+    </div>
+
+    <main>
+        <section class="products-container">
+            <h2 class="title">Our Products</h2>
+            <div class="products">            
+                <div class="product">
+                    <img src="assets/images/yiliyacoco.jpg" alt="Product Image">
+                    <h3>Yiliyacoco Perfume</h3>
+                    <p>&#8358;9000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/flower of story.jpg" alt="Product Image">
+                    <h3>Flower of story Perfume</h3>
+                    <p>&#8358;9500</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/dignife.jpg" alt="Product Image">
+                    <h3>Dignife Pink Pack Perfume</h3>
+                    <p>&#8358;10000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/3in1 beautiful.jpg" alt="Product Image">
+                    <h3>3 in 1 Beautiful Perfume</h3>
+                    <p>&#8358;10000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/bag022.jpg" alt="Product Image">
+                    <h3>Bag 001</h3>
+                    <p>&#8358;8500</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/bag023.jpg" alt="Product Image">
+                    <h3>Bag 002</h3>
+                    <p>&#8358;9000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/Bag 024.jpg" alt="Product Image">
+                    <h3>Bag 003</h3>
+                    <p>&#8358;9000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/girls shoe01.jpg" alt="Product Image">
+                    <h3>Girls Shoe 001</h3>
+                    <label for="size">Select Size:</label>
+                    <select name="size" id="size">
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                    </select>
+                    <p>Sizes: 26-30 &#8358;13800</p>
+                    <p>Sizes: 31-36 &#8358;14000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/lingerie001.jpg" alt="Product Image">
+                    <h3>Lingerie (Up and Down)</h3>
+                    <label for="size">Select Size:</label>
+                    <select name="size" id="size">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                        <option value="xxl">XXL</option>
+                        <option value="xxxl">XXXL</option>
+                    </select>
+                    <p>&#8358;4000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/12 inches ringlight.jpg" alt="Product Image">
+                    <h3>12 Inches RingLight with Tripod</h3>
+                    <p>&#8358;28000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/10 inches ringlight.jpg" alt="Product Image">
+                    <h3>10 Inches RingLight with Tripod</h3>
+                    <p>&#8358;25500</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/black mask.jpg" alt="Product Image">
+                    <h3>Black Face Mask</h3>
+                    <p>&#8358;3500</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/beard oil.jpg" alt="Product Image">
+                    <h3>Beard Growth Oil</h3>
+                    <p>&#8358;3400</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/laptop table 60cm.jpg" alt="Product Image">
+                    <h3>Laptop Table 60cm</h3>
+                    <p>&#8358;28000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/fibroid tea.jpg" alt="Product Image">
+                    <h3>Fibroid Tea</h3>
+                    <p>&#8358;7000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/flat tummy tea.jpg" alt="Product Image">
+                    <h3>Flat Tummy Tea with Moringa</h3>
+                    <p>&#8358;7000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/mini sewing machine.jpg" alt="Product Image">
+                    <h3>Mini Sewing Machine</h3>
+                    <p>&#8358;20500</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/kitchen napkin.jpg" alt="Product Image">
+                    <h3>Kitchen Napkin(12 pieces)</h3>
+                    <p>&#8358;5000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/costume jewelry 001.jpg" alt="Product Image">
+                    <h3>Costume Jewelry 001</h3>
+                    <p>&#8358;30000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/costume jewelry 002.jpg" alt="Product Image">
+                    <h3>Costume Jewelry 002</h3>
+                    <p>&#8358;30000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/costume jewelry 003.jpg" alt="Product Image">
+                    <h3>Costume Jewelry 003</h3>
+                    <p>&#8358;30000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/costume jewelry 004.jpg" alt="Product Image">
+                    <h3>Costume Jewelry 004</h3>
+                    <p>&#8358;30000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/costume jewelry 005.jpg" alt="Product Image">
+                    <h3>Costume Jewelry 005</h3>
+                    <p>&#8358;30000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="assets/images/costume jewelry 006.jpg" alt="Product Image">
+                    <h3>Costume Jewelry 006</h3>
+                    <p>&#8358;30000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-newsletter">
+            <div class="social-media">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/lucyconcepts" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/lucyconcepts" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com/lucyconcepts" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/lucyconcepts" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>    
+            <div class="newsletter">
+                <h2>Join Our Newsletter</h2>
+                <p>Get the latest updates and exclusive offers right in your inbox!</p>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email">
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>        
+        <p>&copy; 2024 Lucy Concepts. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
